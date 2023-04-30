@@ -35,7 +35,7 @@ const PartnerContainer = () => {
 
 
   return (
-    <Container fluid>
+    <Container>
       <SearchBar onSearch={handleSearch} />
         <h3 className='mb-4'>{Dictionary.container.title}</h3>
         <PartnerForm onSubmit={handleSubmit} />
